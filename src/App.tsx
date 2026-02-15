@@ -94,8 +94,8 @@ export default function App() {
             <button className="cta-btn cta-btn-primary" onClick={toggleTheLoop}>
               {isPlaying ? 'Stop the Loop' : 'Start the Loop'}
             </button>
-            <button className="cta-btn cta-btn-secondary">Join the X page</button>
-            <button className="cta-btn cta-btn-accent">COPY CA</button>
+            <a href="https://x.com/CaramellDCoin" target="_blank" rel="noopener noreferrer" className="cta-btn cta-btn-secondary">Join the X page</a>
+            <button className="cta-btn cta-btn-accent" onClick={() => navigator.clipboard.writeText('7ZrtHFTdHYRU4BvcNVPj5KS639uauJSn8LEP16Cfpump')}>COPY CA</button>
           </div>
         </div>
       </section>
